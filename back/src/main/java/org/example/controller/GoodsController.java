@@ -65,7 +65,7 @@ public class GoodsController {
             goodsInfos.addAll(res1);
             List<goodsInfo> res2 =goodsMapper.SelectBySecGetThree(userInterestin);
             goodsInfos.addAll(res2);
-            List<goodsInfo> res3 =goodsMapper.SelectByFirGetThree(userInterestin);
+            List<goodsInfo> res3 =goodsMapper.SelectByThirGetThree(userInterestin);
             goodsInfos.addAll(res3);
             goodsInfo res=goodsMapper.SelectRandom();
             goodsInfos.add(res);
